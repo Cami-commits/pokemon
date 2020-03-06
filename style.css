@@ -1,0 +1,51 @@
+.header{
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.logo{
+    width: 10vw;
+}
+
+.section-char{
+    flex: 1;
+    padding: 50px;
+}
+
+.select-btn{
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: inherit;
+    border-radius: 28pt;
+    border: unset;
+    box-sizing: border-box;
+    background-color: #49d0b0;
+    padding: 15px 40px 15px 40px;
+}
+
+.div-card{
+    box-shadow: 0 4px 8px 0 rgba(212, 215, 228);
+    border-radius: 10pt;
+    transition: 0.3s;
+    width: 250pt;
+    height:300pt;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 10px 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.view-btn{
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: inherit;
+    border-radius: 28pt;
+    border: unset;
+    box-sizing: border-box;
+    background-color: #49d0b0;
+    padding: 20px 80px 20px 80px;
+}

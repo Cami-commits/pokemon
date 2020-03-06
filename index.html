@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./vue.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>PokeCards</title>
+</head>
+<body>
+    <main id="app">
+        
+        <header class="header">
+            <img src="./img/logo.svg" alt="logo" class="logo"/>
+        </header>
+        
+        <section class="section-char">
+            
+            <div class="div-select">
+                <button class="select-btn">1st Generation</button>
+            </div>
+
+            <div v-for="(pokemon, index) in pokemons.results" :key="'pokemon'+index" class="div-card">
+                <h3>{{pokemon.name}}</h3>
+                <button class="view-btn">View More</button>
+           </div>
+
+        </section>
+
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
